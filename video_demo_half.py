@@ -171,7 +171,6 @@ if __name__ == '__main__':
             
             list(map(lambda x: write(x, orig_im), output))
             
-            
             cv2.imshow("frame", orig_im)
             key = cv2.waitKey(1)
             if key & 0xFF == ord('q'):
